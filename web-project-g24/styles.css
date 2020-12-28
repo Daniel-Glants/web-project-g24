@@ -1,0 +1,360 @@
+body{
+	background-color: hsl(34, 78%, 91%,0.5);
+	margin:0px;
+	font: 400 15px/22px 'David CLM';
+	color:#1d1d1d;
+}
+h1{font-size: 40px; font-family: 'David CLM'; color:#5486e4;}
+h2{font: 32px 'David CLM'; color:#5486e4;;}
+#aboutText{font: 27px 'David CLM'; color:#6a6969;}
+ul{margin:0px; padding:0px;}
+a {text-decoration:none; color:#ffffff;}
+a:hover {color:#cee8fd;}
+a img{border:0px;}
+
+#container{	 
+	width:1585px;
+	margin-left: 167px;
+	/*background-color:#8397f1;*/
+	overflow:auto;
+	padding-bottom:100px;
+}
+footer{
+	color: black;
+	font-size:10px;
+}
+/****************************************************/
+/* HEADER */
+/****************************************************/
+
+#header{
+	width:1500px;
+	height:115px;
+	background-color:#5773f1;
+	padding:0px 43px;
+	position: fixed;
+	top:0px;
+	left:50%;
+	margin-left: -785px;
+	overflow: fixed;
+	
+}
+#logoImg{
+	padding-top:20px;
+	width:80px;
+	height:80px;
+	border-radius: 100%;
+}
+#header #logo{
+	padding-top:20px;
+	float:left;
+	
+}
+#header #main-menu{float:right; padding-top:45px;}
+#header #main-menu li{
+	float:right;
+	list-style:none;
+	margin-left:35px;
+	font: 600 18px/20px 'David CLM';
+	color: white;
+}
+.login{
+	background-color: skyblue;
+	color: blue;
+	font-family: 'David CLM';
+}
+a.button{
+	background-color: skyblue;
+	color: blue;
+	font-family: 'David CLM';
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+}
+/****************************************************/
+/* main SECTION */
+/****************************************************/
+
+#about{margin:0px 43px; padding-top:115px;}
+#about h1{float:right; }
+
+#about #top-social{float:left; padding-top:62px;}
+#about #top-social li{float:left; list-style:none; margin-left:10px;}
+#about #top-social #facebook{
+	text-indent:-9999px; 
+	display:block; 
+	width:26px; 
+	height:26px; 
+}
+
+/****************************************************/
+/* #ABOUT SECTION - ADVERTISING FOR RAN */
+/****************************************************/
+
+#about .content{
+	display: inline-grid;
+	direction: rtl;
+	grid-template-columns: 450px 500px 450px;
+    grid-template-rows: 300px 100px 300px;
+	gap: 15px;
+}
+#about .content img{
+	width:300px; 
+	height:320px; 	
+	align-self: center; 
+	margin-right:480px; 
+	border:5px solid #222222e3;
+	border-radius: 100%; 
+	grid-column: 1/span 1; 
+	grid-row: 1;
+}
+#about .content .About_Text{
+	grid-column: 2/ span 2;
+	grid-row: 3/ span 1;
+	padding-right: 200px;
+}
+#about .content .short_vid{
+	grid-column: 1/ span 1;
+	grid-row: 3/ span 1;
+	padding-bottom: 90px;
+}
+.slideshow-container{
+	margin-left: 600px;
+	padding-top: 100px;
+}
+/****************************************************/
+/* animation
+/****************************************************/
+
+
+
+	
+	.slide-show-Text-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	direction: ltr;
+	}
+	.text {
+	background-color: grey;
+	color: whitesmoke;
+	font-family:fantasy;
+	font-size: 20px;
+	text-align: center;
+	}
+	.Title {
+	background-color: grey;
+	color: whitesmoke;
+	font: bold 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 300%;
+	text-align: center;
+	}
+	.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-left: -100px;
+	color: rgb(123, 177, 248);
+	font-weight: bold;
+	font-size: 40px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	direction: ltr;
+	}
+	
+	.next {
+	right: 330px;
+	border-radius: 3px 0 0 3px;
+	}
+	
+	.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+	}
+	.dot {
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	}
+	
+	.active, .dot:hover {
+	background-color: #717171;
+	}
+	.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+	}
+
+/****************************************************/
+/* #ARTICKLES SECTION */
+/****************************************************/
+.Dog_Types_Grid{
+	display: inline-grid;
+	direction: rtl;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: auto auto;
+	align-content: center;
+	gap: 10px;
+	margin-left: 220px;
+
+}
+.Types_Grid{
+	padding: 0 18px;
+  	overflow: hidden;
+  	background-color: rgba(48, 50, 53, 0.93);
+
+}
+.Type{
+	text-align: center;
+}
+
+.Explanation {
+  
+  background-color: rgb(63, 128, 224);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 100%;
+
+}
+.active, .Explanation:hover {
+  background-color:rgb(6, 98, 236);
+}
+
+.Type_Content {
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+  background-color: rgb(0, 167, 233);
+  border-radius: 20%;
+}
+.Article_Content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgb(0, 167, 233);
+  text-align: right;
+  border-radius: 10%;
+}
+.dog_photo{
+	border-radius: 100%;
+}
+
+#StudyArticles{margin:0px 43px; padding-top:115px;}
+#StudyArticles h1{float:right;}
+#StudyArticles .col{
+	width:250px;
+	float:right;
+	margin:0px 70px;
+}
+#StudyArticles .content{overflow:auto; float:right; margin-right: 150px;}
+
+/****************************************************/
+/* VIDEOS SECTION */
+/****************************************************/
+
+#Training_Videos{margin:0px 180px; padding-top:115px;}
+#Training_Videos h1{float:right;}
+
+.Videos_Grid{
+	display: inline-grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-template-rows: 300px 300px 300px ;
+	align-content: center;
+	gap: 10px;
+
+}
+
+/****************************************************/
+/* CONNECT SECTION */
+/****************************************************/
+#connect{margin:0px 43px; padding-top:115px;}
+#connect .content{overflow:auto;}
+#connect #contactHeader{text-align: center; font-family: 'David CLM'; font-size:55px ;}
+#connect #form{
+	width:410px;
+	float:right;
+	margin-right: 30px;
+
+}
+#connect #form span{
+	display:block;
+	float:right;
+	width:100px;
+	padding-top:5px;
+	padding-left: 8px;
+	font: 400 16px/20px 'Bree Serif', Georgia, serif;
+}
+#connect #form input{
+	float:right;
+	width:255px;
+	border:0px;
+	color:#3b3b3b;
+	padding:10px 10px 10px 30px;
+	font: 400 16px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+#connect #form textarea{
+	float:right;
+	border:0px;
+	width:255px;
+	height:100px;
+	padding:10px 10px 10px 30px;
+	font: 400 16px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+	color:#3b3b3b;
+}
+
+#connect #form input.name{background:#c2f0f7 url(images/icon-user.png) no-repeat 10px 8px;}
+#connect #form input.Phone{background:#c2f0f7 url(images/icon-phone.png) no-repeat 10px 9px;}
+#connect #form textarea.message{background:#c2f0f7 url(images/icon-message.png) no-repeat 10px 8px;}
+#connect #form input.submit{ 
+	width:75px;   
+	height:30px;
+	float:initial;
+	padding:0px 0px 5px 0px;
+	margin:15px 20px 0px 120px;
+	background:#c2f0f7;
+	color:#000000;
+	font: 400 16px/20px 'Bree Serif', Georgia, serif;
+}
+
+#connect #social-footer{
+	width:100px;
+	height:100px;
+	float:right;
+	margin-right:300px;
+}
+
+
+/****************************************************/
+/* MISC */
+/****************************************************/
+.top-divider, .bottom-divider{
+	width:100%;
+	height:9px;
+	background:url(images/divider.png) repeat-x;
+	clear:both;
+}
+.top-divider{margin-bottom:40px;}
+.bottom-divider{margin-top:40px;}
+#rec_Header{
+	text-align: center;
+}
+.fb-post{
+	width:1200px;
+	height:200px;
+	margin-left:700px;	
+}
